@@ -1,0 +1,90 @@
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# Node.js相关
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.npm
+.yarn-integrity
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 构建输出
+/build
+/dist
+/frontend/build
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 上传和处理的临时文件
+/backend/uploads/*
+/backend/processed/*
+!/backend/uploads/.gitkeep
+!/backend/processed/.gitkeep
+
+# 操作系统相关文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+logs/
+
+# 本地测试文件
+test.png
+
+# 前端构建和依赖
+/frontend/node_modules/
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/coverage/
+/frontend/.next/
+/frontend/out/
+/frontend/.DS_Store
+/frontend/.env.local
+/frontend/.vercel
+
+# 后端临时文件
+/backend/__pycache__/
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+/backend/.env 

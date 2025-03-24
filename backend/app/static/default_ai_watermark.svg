@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="3" />
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <g opacity="0.5">
+    <circle cx="100" cy="100" r="80" fill="#3498db" filter="url(#blur)"/>
+    <text x="100" y="110" font-family="Arial" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">AI 生成</text>
+  </g>
+</svg>
