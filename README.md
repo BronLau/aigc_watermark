@@ -24,7 +24,7 @@ npm start
 
 ```bash
 cd backend
-pip install -r requirements.txt
+pip install -r requirements.txt -i https://pypi.org/simple
 # 初始化数据库
 python init_db.py
 python main.py
